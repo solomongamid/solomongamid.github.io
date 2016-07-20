@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<link href="mystyle.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">	
+	<title>My cv</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".su div").hide();
+
+    $("#Qualification").click(function(){
+        $(".su div").hide();
+        $('#toon2').show();
+    });
+    $("#inform").click(function(){
+        $(".su div").hide();
+        $('#toon1').show();
+    });
+     $("#Interests").click(function(){
+        $(".su div").hide();
+        $('#toon4').show();
+    });
+       $("#Experience").click(function(){
+        $(".su div").hide();
+        $('#toon3').show();
+    });
+});
+</script>
+
+</head>
+<body>
+
+
+	<ul class="navbar">
+  		<li><a class="active" href="#home">Home</a></li>
+  		<li class="center">Suliman C.V</li>
+  		<li style="float:right"><a href="contact.html" target="_self">Contact</a></li>
+	</ul>
+
+    <div class="upper">
+
+    	<img src="sun.jpg" width="130" height="120">
+    	<h1>Suliman Abdulgadeir</h1>
+    	<h3>developer</h3>
+
+    </div>
+    <hr>
+
+    <div class="option">
+        <div class="col-md-4">
+    	<ul class="Information">
+    		<li><a id="inform" class="active">
+
+            <h3>Basic Information:</h3>
+            
+             </a></li>
+            <li> <a id="Qualification"> <h3>Qualification :</h3>  </a></li>
+            <li><a id="Experience"> <h3>Work Experience :</h3> </a></li>
+            <li><a id="Interests"> <h3>Interests : </h3> </a></li>  
+        </ul>
+        </div>
+
+        <div class="col-md-8 su">
+            <div class="p1" id="toon1">
+    		Name:suliman abdelgadeir<br>
+    		Date of birth : 1/1/1988<br>
+    		Nationality :sudanese<br>
+    		Languages: 1/ Arabic (Mother tongue)<br>
+    				   2/ English<br>
+					   3/ Espanish<br>
+					   4/ french<br>
+
+			Present home: Paris,France. <br>
+            </div>
+    		
+    		
+    		<br>
+            <div class="p2" id="toon2">
+			diploma of computer science & tecknology "3years" <br> Khartoum university<br>
+    		</div>
+    		<br>
+            <div class="p3" id="toon3">
+			* Computer training course in ministry of planning & public utilities (land department) .<br>
+			* Computer technician in F&H engineering company .<br>
+
+			* Director of the informatics Department of ALSALAM company for foreign recuruitment and employment .
+            </div>
+			
+    		
+
+			<br>
+            <div class="p4" id="toon4">
+			reading <br> swiming <br> play football & basketball <br> gym 
+            </div>
+        </div>		
+</body>
+</html>
