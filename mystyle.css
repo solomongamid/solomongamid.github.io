@@ -62,7 +62,7 @@ ul.Information {
 
 ul.Information li a {
     display: block;
-    color: #000;
+    color: rgb(150,120,222);
     padding: 50px 0 8px 16px;
     text-decoration: none;
 }
