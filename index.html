@@ -6,32 +6,48 @@
 	<link href="mystyle.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">	
 	<title>My cv</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
 $(document).ready(function(){
     $(".su div").hide();
+    
 
     $("#Qualification").click(function(){
         $(".su div").hide();
+        $('.introduction').hide();
         $('#toon2').show();
-        this.style.background="#003300";
+       
     });
     $("#inform").click(function(){
         $(".su div").hide();
+        $('.introduction').hide();
         $('#toon1').show();
-        this.style.background="#003300";
+        
     });
      $("#Interests").click(function(){
         $(".su div").hide();
+        $('.introduction').hide();
         $('#toon4').show();
-        this.style.background="#003300";
+        
     });
        $("#Experience").click(function(){
         $(".su div").hide();
+        $('.introduction').hide();
         $('#toon3').show();
-        this.style.background="#003300";
+        
     });
 });
+
+//onclick change the background color
+$(function() {
+   var links = $('a.link').click(function() {
+       links.removeClass('active');
+       $(this).addClass('active');
+   });
+});
+
 </script>
 
 </head>
@@ -44,8 +60,13 @@ $(document).ready(function(){
   		<li style="float:right"><a href="contact.html" target="_self">Contact</a></li>
 	</ul>
 
-    <div class="upper">
+    <div class="container">
+    <a class="btn btn-info btn-lg" href="#inform">
+    <span class="glyphicon glyphicon-hand-down"></span>
+    </a>
+    </div>
 
+    <div class="upper">
     	<img src="sun.jpg" width="130" height="120">
     	<h1>Suliman Abdulgadeir</h1>
     	<h3>developer</h3>
@@ -56,15 +77,20 @@ $(document).ready(function(){
     <div class="option">
         <div class="col-md-4">
     	<ul class="Information">
-    		<li><a id="inform" class="active">
+    		<li><a id="inform" class="link">
 
             <h3>Basic Information:</h3>
             
              </a></li>
-            <li> <a id="Qualification"> <h3>Qualification :</h3>  </a></li>
-            <li><a id="Experience"> <h3>Work Experience :</h3> </a></li>
-            <li><a id="Interests"> <h3>Interests : </h3> </a></li>  
+            <li> <a id="Qualification" class="link"> <h3>Qualification :</h3>  </a></li>
+            <li><a id="Experience" class="link"> <h3>Work Experience :</h3> </a></li>
+            <li><a id="Interests" class="link"> <h3>Interests : </h3> </a></li>  
         </ul>
+        </div>
+        <div class="introduction">
+        WELCOME TO MY INFORMATION DETAILS  <br>
+        For more information click on the subject in the left<br>
+        THANK YOU
         </div>
 
         <div class="col-md-8 su" >

@@ -44,9 +44,8 @@ ul.navbar li a:hover:not(.active) {
     background-color: #111;
 }
 
-.active {
-    background-color: #4CAF50;
-}
+/* onclick change the background color */ 
+a.link.active { color:#003300; }
 
 h4 {
     display: none;
@@ -56,7 +55,7 @@ ul.Information {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(243, 239, 224);
     color: white;
 }
 
