@@ -1,10 +1,27 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+.up{
+    background-image: url(man.jpg);
+}
+body{
+    background-color: #e5eecc;
+}
+.active {
+    background-color: #4CAF50;
+}
 .upper {
-	 background: rgb(225,195,222);
+	font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
     margin: auto;
-    width: 40%;
-    border: 3px solid rgb(176,80,222);
-    padding: 10px;
+    height: 320px;
     text-align: center;
+}
+.container{
+    position: absolute;
+    top: 270px;
+    left: 70px;
 }
 
 li.center {
