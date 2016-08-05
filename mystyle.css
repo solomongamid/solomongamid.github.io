@@ -1,23 +1,32 @@
-@font-face {
-   font-family: myFirstFont;
-   src: url(sansation_light.woff);
-}
-.up{
-    background-image: url(man.jpg);
+
+.up{ 
+    background: no-repeat center right fixed url(man.jpg); /* make body move on it  */
+    background-size: 100%;
 }
 body{
     background-color: #e5eecc;
 }
+#supic{
+   opacity: 0.5; /* make photo appearnce 50%  */
+   display: block;
+    margin: 0 auto;
+}
+#supic:hover{
+   opacity: 1;
+}
 .active {
-    background-color: #4CAF50;
+    background-color: rgb(193, 197, 196);
 }
 .upper {
 	font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px rgb(170, 82, 40);
     font-size: 60px;
+    color: rgb(34, 163, 159);
     margin: auto;
     height: 320px;
     text-align: center;
 }
+
 .container{
     position: absolute;
     top: 270px;
@@ -26,8 +35,9 @@ body{
 
 li.center {
 	position: absolute;
-	left: 45% ;
-	color: rgb(150,120,222);
+	left: 40% ;
+    font-family: "Times New Roman", Times, serif;
+	color: rgb(34, 163, 159);
 	font-size: 200% ;
 	
 }
@@ -37,7 +47,7 @@ ul.navbar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(225, 189, 192);
 }
 
 ul.navbar li {
@@ -51,14 +61,15 @@ ul.navbar li:last-child {
 
 ul.navbar li a {
     display: block;
-    color: white;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(34, 163, 159);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 ul.navbar li a:hover:not(.active) {
-    background-color: #111;
+    background-color: rgb(193, 197, 196);
 }
 
 /* onclick change the background color */ 
@@ -78,7 +89,8 @@ ul.Information {
 
 ul.Information li a {
     display: block;
-    color: rgb(150,120,222);
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(34, 163, 159);
     padding: 50px 0 8px 16px;
     text-decoration: none;
 }
@@ -88,7 +100,7 @@ ul.Information li a.active {
 }
 
 ul.Information li a:hover:not(.active) {
-    background-color: #555;
+    background-color: rgb(193, 197, 196);
     color: white;
 }
 p.details {
