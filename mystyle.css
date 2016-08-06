@@ -29,8 +29,16 @@ body{
 
 .container{
     position: absolute;
-    top: 150px;
-    left: 20px;
+    top: 60px;
+    left: 6px;
+}
+
+.introduction{
+    text-align: center;
+    padding: 30px;
+}
+.su{
+    padding: 30px;
 }
 
 li.center {
