@@ -20,7 +20,7 @@ body{
 .upper {
 	font-family: "Times New Roman", Times, serif;
     text-shadow: 2px 2px rgb(170, 82, 40);
-    font-size: 60px;
+    font-size: 30px;
     color: rgb(34, 163, 159);
     margin: auto;
     height: 320px;
@@ -29,8 +29,8 @@ body{
 
 .container{
     position: absolute;
-    top: 270px;
-    left: 70px;
+    top: 150px;
+    left: 20px;
 }
 
 li.center {
@@ -123,4 +123,13 @@ p.details {
 .unhidden { display: block; }
 a {
     text-decoration: none;
+}
+.footer{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(67, 66, 66);
+    color: rgb(34, 163, 159);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
