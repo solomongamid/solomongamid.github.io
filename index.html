@@ -1,153 +1,228 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="mystyle.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">	
-	<title>My cv</title>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="mystyle.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">	
+  	<title>My cv</title>
+     
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+      $("#su div").hide();
+      
+
+      $("#Qualification").click(function(){
+          $("#su div").hide();
+          $('.introduction').hide();
+          $('#toon2').show();
+         
+      });
+      $("#inform").click(function(){
+          $("#su div").hide();
+          $('.introduction').hide();
+          $('#toon1').show();
+          
+      });
+       $("#Interests").click(function(){
+          $("#su div").hide();
+          $('.introduction').hide();
+          $('#toon4').show();
+          
+      });
+         $("#Experience").click(function(){
+          $("#su div").hide();
+          $('.introduction').hide();
+          $('#toon3').show();
+          
+      });
+         $("#skills").click(function(){
+          $("#su div").hide();
+          $('.introduction').hide();
+          $('#toon5').show();
+          
+      });
+  });
+
+  //onclick change the background color
+  $(function() {
+     var links = $('a.link').click(function() {
+         links.removeClass('active');
+         $(this).addClass('active');
+     });
+  });
+
+  </script>
+
+  </head>
+  <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-brand">
+      Interactive resume
+    </div>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="french.html"><img src="Logo_France1.jpg"  width="70" height="36"></a></li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="up">
+
+       <div class="container">
+      <a class="btn btn-info btn-lg" href="#inform">
+      <span class="glyphicon glyphicon-hand-down"></span>
+      </a>
+      </div>
+      
+      <div class="upper">
+      <img src="susu.jpg" class="img-circle" alt="suliman picture" width="304" height="236" id="supic"  >
+      	SULIMAN ADBELGADEIR <br>
+      	  WEB DEVELOPER
+          </div>
+      </div>
+      
+      
+      <div class="option">
+          <div class="row">
+          <div class="col-sm-4">
+      	<ul class="Information">
+      		<li><a id="inform" class="link">
+
+              <h3>Basic Information</h3>
+              
+               </a></li>
+              <li> <a id="Qualification" class="link"> <h3>Qualification </h3>  </a></li>
+              <li><a id="Experience" class="link"> <h3>Work Experience </h3> </a></li>
+              <li><a id="skills" class="link"> <h3>Technical Skills  </h3> </a></li> 
+              <li><a id="Interests" class="link"> <h3>Interests  </h3> </a></li>
+
+          </ul>
+          </div> 
+
+          <div class="introduction">
+          <b>About me </b> <br> I am an allround web developer. I am a junior programmer with good knowledge of front-end & back-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team cuz I'll learn faster and more. As the saying goes: 'two heads are better than one'.<br>
+          </div>
+
+          <div class="col-sm-8 " id="su" >
+              <div class="p1" id="toon1">
+      		<b>Name:</b> <br/>Suliman  Abdelgadeir<br>
+      		<b>Age :</b> <br/>30 years<br>
+  			  <b>Location: </b> <br/> Paris,France. <br>
+            <hr>
+          <p style="font-family: 'Times New Roman', Times, serif; text-align: center; font-size: 150% ;">LANGUAGES</p>
+
+          <p style="width: 20%; float:left">
    
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+              FRENCH 
+              <br/>ENGLISH
+              <br/>ARAB
+              <br/>SPANISH
+              
+             </p>
+          <p style="width: 80%; float:right;">
 
-<script>
-$(document).ready(function(){
-    $(".su div").hide();
-    
+          &#9733;&#9733;&#9733;&#9734;&#9734;
+          <br/>&#9733;&#9733;&#9733;&#9733;&#9734;
+          <br/>&#9733;&#9733;&#9733;&#9733;&#9733;
+          <br/>&#9733;&#9733;&#9733;&#9734;&#9734;
+          
+          </p>
+              </div>
 
-    $("#Qualification").click(function(){
-        $(".su div").hide();
-        $('.introduction').hide();
-        $('#toon2').show();
-       
-    });
-    $("#inform").click(function(){
-        $(".su div").hide();
-        $('.introduction').hide();
-        $('#toon1').show();
-        
-    });
-     $("#Interests").click(function(){
-        $(".su div").hide();
-        $('.introduction').hide();
-        $('#toon4').show();
-        
-    });
-       $("#Experience").click(function(){
-        $(".su div").hide();
-        $('.introduction').hide();
-        $('#toon3').show();
-        
-    });
-});
+              <div class="p2" id="toon2">
+              
+              <b>Simplon.co</b><br>
+              Web developement (7 months - 2016)<br/> 
+              Intensive training on (HTML5, CSS3, Bootstrap, PHP, phpMyAdmin Java, JavaScript, MySQL, Sympony, Worldpress, Ruby, Python) and system administration(Linux).
+              <br><br>
 
-//onclick change the background color
-$(function() {
-   var links = $('a.link').click(function() {
-       links.removeClass('active');
-       $(this).addClass('active');
-   });
-});
+              <b>University of Khartoum</b><br>
+              Computer Science & Tecknology (3 years - 2007_2010) <br>
+              Computer science_Digital system_Electronics_Data base system_System analysis and design_Operating systems_Computer networks_Web page and internet concepts <br>
+      		</div>
 
-</script>
+              <div class="p3" id="toon3">
+              <b>ALSALAM company for foreign recuruitment and employment</b>  <br/>Information Technology (IT) Manager<br/>creator of the department, Management partnerships in the country
+              Gulf, mainly Saudi Arabia (Universities, embassies, businesses) 
+              (2 years - 2011_2013) <br/><br>
+              <b>F&H engineering company</b><br> Computer technician, Repair and maintenance, data entry, administrative assistant (1 year - 2010_2011)
+              <br/><br> 
+  			<b>Ministry of Planning and Urban Development (Land department) </b><br>Training of Systems Analysis and Design using visul basic (2 months - 2008)<br/>
+              </div>
+      		
+              <div  id="toon5">
 
-</head>
-<body>
+             <p style="width: 20%; float:left">
+   
 
-<div class="up">
-	<ul class="navbar">
-  		<li><a class="active" href="#home">Home</a></li>
-  		<li class="center">Interactive resume</li>
-	</ul>
+              HTML5     
+              <br/>CSS3 
+              <br/>Java Script
+              <br/>JQuery
+              <br/>PHP
+              <br/>C++
+              <br/>Ruby
+              <br/>Python
+              <br/>Bootstrap Framework
+              <br/>Material Design Lite
+              <br/>M-Office
+              <br/>Windows
+              <br/>Mac
+              <br/>Linux
+              <br/>MySQL
+              <br/>PHPMyAdmin
+             </p>
 
-     <div class="container">
-    <a class="btn btn-info btn-lg" href="#inform">
-    <span class="glyphicon glyphicon-hand-down"></span>
-    </a>
-    </div>
-    
-    <img src="solomon.JPG" class="img-circle" alt="Cinque Terre" width="304" height="236" id="supic"  >
-    	<div class="upper">
-    	SULIMAN ADBELGADEIR <br>
-    	  WEB DEVELOPER PHP
-        </div>
-        
-        <hr>
-    </div>
-    
-    
-    <div class="option">
-        <div class="row">
-        <div class="col-sm-4">
-    	<ul class="Information">
-    		<li><a id="inform" class="link">
-
-            <h3>Basic Information</h3>
-            
-             </a></li>
-            <li> <a id="Qualification" class="link"> <h3>Qualification </h3>  </a></li>
-            <li><a id="Experience" class="link"> <h3>Work Experience </h3> </a></li>
-            <li><a id="Interests" class="link"> <h3>Interests  </h3> </a></li>  
-        </ul>
-        </div> 
-
-        <div class="introduction">
-        <b>About me </b> <br> I am an allround web developer. I am a junior programmer with good knowledge of front-end & back-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team cuz you'll learn faster and more. As the saying goes: 'two heads are better than one'.<br>
-        </div>
-
-        <div class="col-sm-8 su" >
-            <div class="p1" id="toon1">
-    		<b>Name:</b> <br/>Suliman  Abdelgadeir<br>
-    		<b>Age :</b> <br/>30 years<br>
-    		<b>Languages: </b> <br/>French <br>English<br>Arabic <br/>Spanish<br/>
-			<b>Location: </b> <br/> Paris,France. <br>
-            </div>
-
-            <div class="p2" id="toon2">
-            
-            <b>Simplon.co</b><br>
-            Web developement (7 months - 2016)<br/> 
-            Intensive training on (HTML5, CSS3, Bootstrap, PHP, phpMyAdmin Java, JavaScript, MySQL, Sympony, Worldpress, Ruby, Python) and system administration(Linux).
-            <br>
-
-            <b>University of Khartoum</b><br>
-            Computer Science & Tecknology (3 years - 2007_2010) <br>
-            Computer science_Digital system_Electronics_Data base system_System analysis and design_Operating systems_Computer networks_Web page and internet concepts <br>
-    		</div>
-
-            <div class="p3" id="toon3">
-            <b>ALSALAM company for foreign recuruitment and employment</b>  <br/>Information Technology (IT) Manager<br/>creator of the department, Management partnerships in the country
-            Gulf, mainly Saudi Arabia (Universities, embassies, businesses) 
-            (2 years - 2011_2013) <br/>
-            <b>F&H engineering company</b><br> Computer technician, Repair and maintenance, data entry, administrative assistant (1 year - 2010_2011)
-            <br/> 
-			<b>Ministry of Planning and Urban Development (Land department) </b><br>Training of Systems Analysis and Design using visul basic (2 months - 2008)<br/>
-            </div>
-    		
-
+			<p style="width: 80%; float:right;">
+            &#9733;&#9733;&#9733;&#9733;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9733;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9734;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9734;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9734;&#9734;
+       <br/>&#9733;&#9733;&#9734;&#9734;&#9734;
+       <br/>&#9733;&#9733;&#9734;&#9734;&#9734;
+       <br/>&#9733;&#9733;&#9734;&#9734;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9733;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9733;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9733;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9733;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9733;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9733;&#9733;
+       <br/>&#9733;&#9733;&#9733;&#9733;&#9734;
+       <br/>&#9733;&#9733;&#9733;&#9733;&#9734;
+			</p>
+		
 			
-            <div class="p4" id="toon4">
-			environment <br> Arts & creation<br> Reading <br> Swiming <br> Play football & Basketball &Volleyball <br> Gym 
-            </div>
+              </div>
+  			      
+             <div class="p4" id="toon4"> 
+  			environment <br> Arts & creation<br> Reading <br> Swiming <br> Play football & Basketball &Volleyball <br> Gym 
+              </div>
 
-            </div>
-        </div>
+              </div>
+          </div>
 
-        <div class="footer">
-            <h3>Contact Me :</h3> 
-            <hr width="50%">
-            <span class="glyphicon glyphicon-envelope"></span> Email :<a href="mailto:sulimanabdulgadeir@gmail.com" target="_blank">       Email Me</a> <br>
-            <i class="fa fa-github"></i> Github : <a href="https://github.com/solomongamid" target="_blank"> My profile </a> <br>
-           <i class="fa fa-linkedin-square"></i> Linkdin : <a href="https://www.linkedin.com/in/suliman-adul-525925118?trk=nav_responsive_tab_profile" target="_blank"> My profile </a><br>
-           <i class="fa fa-stack-overflow"></i> Stackoverflow : <a href="https://stackoverflow.com/users/6663713/solomongamid?tab=profile" target="_blank"> My profile </a><br>
-           <i class="fa fa-twitter"></i> Twitter :  <a href="https://twitter.com/AdulSuliman" target="_blank"> My profile </a><br>
-           Download my CV from here : 
-           <a href="mycv.pdf" download>
-           <img border="0" src="download.png" alt="download" width="40" height="42">
-           </a>
-        </div>	
-       	
-</body>
-</html>
+          <div class="footer">
+              <h3>Contact Me :</h3> 
+              <hr width="50%">
+              <span class="glyphicon glyphicon-envelope"></span> Email :<a href="mailto:sulimanabdulgadeir@gmail.com">       Email Me</a> <br>
+              <i class="fa fa-github"></i> Github : <a href="https://github.com/solomongamid"> My profile </a> <br>
+             <i class="fa fa-linkedin-square"></i> Linkdin : <a href="https://www.linkedin.com/in/suliman-adul-525925118?trk=nav_responsive_tab_profile"> My profile </a><br>
+             <i class="fa fa-stack-overflow"></i> Stackoverflow : <a href="https://stackoverflow.com/users/6663713/solomongamid?tab=profile"> My profile </a><br>
+             <i class="fa fa-twitter"></i> Twitter :  <a href="https://twitter.com/AdulSuliman"> My profile </a><br>
+             Download my CV from here : 
+             <a href="mycv.pdf" download>
+             <img border="0" src="download.png" alt="download" width="40" height="42">
+             </a>
+          </div>	
+         	<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/Share" data-url="http://www.alnilin.com/" data-counter="top"></script>
+  </body>
+  </html>
