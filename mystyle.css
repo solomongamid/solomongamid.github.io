@@ -1,4 +1,10 @@
-
+li.navbar-brand
+{
+    position: absolute;
+    left: 40% ;
+    
+    
+}
 .up{ 
     background: no-repeat center right fixed url(man.jpg); /* make body move on it  */
     background-size: 100%;
@@ -14,31 +20,32 @@ body{
 #supic:hover{
    opacity: 1;
 }
-.active {
-    background-color: rgb(193, 197, 196);
-}
+
 .upper {
 	font-family: "Times New Roman", Times, serif;
     text-shadow: 2px 2px rgb(170, 82, 40);
-    font-size: 30px;
-    color: rgb(34, 163, 159);
-    margin: auto;
-    height: 320px;
+    font-size: 35px;
+    color: black;
+    margin-top: auto;
+    padding-top: 100px;
+    height: 800px;
     text-align: center;
 }
 
 .container{
     position: absolute;
-    top: 60px;
+    top: 100px;
     left: 6px;
 }
 
 .introduction{
     text-align: center;
     padding: 30px;
+    font-size: 20px;
 }
-.su{
+#su{
     padding: 30px;
+    font-size: 17px;
 }
 
 li.center {
@@ -58,10 +65,7 @@ ul.navbar {
     background-color: rgb(225, 189, 192);
 }
 
-ul.navbar li {
-    float: left;
-    
-}
+
 
 ul.navbar li:last-child {
     border-right: none;
@@ -136,7 +140,7 @@ a {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     background-color: rgb(67, 66, 66);
-    color: rgb(34, 163, 159);
+    color: white;
     padding-top: 30px;
     padding-bottom: 30px;
 
