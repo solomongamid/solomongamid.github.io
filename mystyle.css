@@ -7,7 +7,7 @@ li.navbar-brand
 }
 .up{ 
     background: no-repeat center right fixed url(man.jpg); /* make body move on it  */
-    background-size: 100%;
+    background-size: 120%;
 }
 body{
     background-color: #e5eecc;
