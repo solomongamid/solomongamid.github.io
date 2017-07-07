@@ -1,0 +1,25 @@
+{
+  "name": "Suliman portfolio",
+  "short_name": "portfolio",
+  "lang": "en",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#EFE0F4",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "700x700",
+      "type": "png"
+    },
+    {
+      "src": "EnglishLogo.png",
+      "sizes": "265x86",
+      "type": "png"
+    },
+    {
+      "src": "Logo_France1.jpg",
+      "sizes": "1372x1902",
+      "type": "image"
+    }
+  ]
+}
